@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domain Search</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Generating Different Types of Cat Image</h1>
+    <div class="container">
+        <form name="domain">
+            <label for="dname">Select Any one Category: </label> <br>
+            <input type="radio" name="cat" value="cat"> Random Cat <br>
+            <input type="radio" name="cat" value="custom"> Custom Cat <br>
+            <label for="custom">Enter the custom color: </label> <br>
+            <input type="text" id="custom"> <br>
+            <input type="radio" name="cat" value="gif"> Generate GIF <br>
+            <input type="radio" name="cat" value="text"> Cat with Text <br>
+            <label for="text">Enter text to be in cat image:</label> <br>
+            <input type="text" id="text"> <br><br>
+            <button id="sub">Generate Image</button>
+            <button onclick="reload">Reset</button>
+        </form>
+    </div>
+    <img id="image">
+
+    <script src="./script.js"></script>
+</body>
+</html>

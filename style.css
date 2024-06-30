@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background: linear-gradient(to right bottom, orange, seagreen, lightblue, violet);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+button{
+    background-color: lightseagreen;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+input{
+    margin: 5px 0 5px 0;
+}
+
+img{
+    height: 380px;
+    width: 500px;
+    margin-top: 20px;
+    
+}
